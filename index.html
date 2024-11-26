@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room: Ruta de La Sombra del Viento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Escape Room: Ruta de La Sombra del Viento</h1>
+        <div id="game-text">
+            <p>📖 Bienvenido al Escape Room. Tu misión es seguir las pistas para descubrir la verdad de Julián Carax.</p>
+        </div>
+        <div id="input-container">
+            <p id="prompt">Estás en el Cementerio de los Libros Olvidados. Pista: "El corazón de la historia está perdido, busca su sombra en la plaza que nunca duerme."</p>
+            <input type="text" id="user-input" placeholder="Escribe tu respuesta aquí...">
+            <button id="submit-button">Enviar</button>
+        </div>
+        <div id="pistas">
+            <button id="hint-button">Pista (3 restantes)</button>
+        </div>
+        <div id="score">
+            <p>⏱ Tiempo: <span id="timer">0:00</span></p>
+            <p>✅ Respuestas correctas: <span id="correct-count">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
